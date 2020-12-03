@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0"/>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./my web.css">
+    <link rel="stylesheet" href="./phone media.css">
+</head>
+<body>
+    <div id="landing-page">
+        <h1 class="welcome-text">Halo selamat datang di website saya</h1>
+    </div>
+    <ul class="nav">
+        <li class="nav-icon-desktop"><a href="#landing-page"><img src="https://image.flaticon.com/icons/svg/273/273581.svg" alt="iconAvatar.svg"></a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#portofolio">My Portfolio</a></li>
+        <li><a href="#contact-us">Contact Me</a></li>
+    </ul>
+    <div id="about-me">
+        <div class="section-introduction">
+            <img src="https://image.flaticon.com/icons/svg/201/201651.svg" alt="iconAvatar.svg" class="img-icon">
+            <p class="content-perkenalan">Perkenalkan saya JJ, seorang <br> Web developer yang berfokus <br> dalam membuat tampilan website <br> yang modern dan responsive</p>
+        </div>
+        <div class="section-education">
+            <img src="https://image.flaticon.com/icons/svg/201/201603.svg" alt="iconAvatar.svg" class="img-icon" id="ico2">
+            <p class="content-perkenalan" id:"perk1">Saya telah mengikuti beberapa kelas khusus untuk membuat tampilan web responsive dan telah mempunyai beberapa  sertifikat</p>
+        </div>
+        <div class="section-working">
+            <img src="https://image.flaticon.com/icons/svg/273/273581.svg" alt="iconAvatar.svg" class="img-icon" id="ico3">
+            <p class="content-perkenalan" id="perk2">Saya telah mengusasi cara membuat tampilan website dengan menggunakan <b>HTML, CSS dan JavaScript</b> saya juga dapat menggunakan Framework modern seperti <b>Bootstrap</b></p>
+        </div>
+        <div>
+            <button class="mobile"><a href="./more.html">more</a></button>
+        </div>
+    </div>
+    <div id="portofolio">
+        <h1 class="title-portofolio">My Portofolio</h1>
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1602373923082-2ed1ecf5dfa0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1446508577056-c6e637f50230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1533511814724-c3983a43f913?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="" class="img-portfolio">
+            <img src="https://images.unsplash.com/photo-1506762264250-780c5fe510e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="" class="img-portfolio">
+        </div>
+    </div>
+    <hr>
+    <div id="contact-us">
+        <h1 class="title-contact-us">Kontak saya</h1>
+        <form action="" class="form-contact-us">
+            <div class="inputan">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama">
+            </div>
+            <div class="inputan">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="inputan">
+                <label for="pesan">Pesan</label>
+                <textarea name="" id="" cols="30" rows="10" id="pesan"></textarea>
+            </div>
+            <button type="submit" class="btn-kirim">Kirim</button>
+        </form>
+        <div class="contact-info">
+            <h3 class="non-desktop">
+                Ketuk salah satu untuk mendapat info
+            </h3>
+            <div>
+                <a href="tel:123-456-7890" class="contact-icon-bundler">
+                    <img src="https://image.flaticon.com/icons/svg/483/483947.svg" alt="phone.png" class="contact-icon">
+                    <span class="contact-desktop">1234567890</span>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:someone@example.com" class="contact-icon-bundler">
+                    <img src="https://image.flaticon.com/icons/svg/482/482947.svg" alt="mail.png" class="contact-icon">
+                    <span class="contact-desktop">someone@example.com</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/williamhgates"  class="contact-icon-bundler">
+                    <img src="https://image.flaticon.com/icons/svg/39/39714.svg" alt="in.png" class="contact-iconin">
+                    <span class="contact-desktop">williamgates</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © Kelas Website Responsive, Inc. All rights reserved.
+    </footer>
+</body>
+</html>
